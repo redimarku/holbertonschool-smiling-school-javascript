@@ -1,0 +1,62 @@
+.quote-slider{
+    background-color: #c271ff;
+    padding: 40px 0px;
+    position: relative;
+    
+}
+
+.img-quote{
+    width: 200px;
+    height: 200px;
+}
+
+.quote-container{
+    margin-top: 20px;
+    color: white;
+}
+
+.arrow-left, .arrow-right {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  font-size: 100px;
+  color: white;
+   
+}
+.arrow-left:hover, .arrow-right:hover,
+.arrow-left:active, .arrow-right:active{
+    background: transparent !important;
+    color: aliceblue;
+} 
+
+
+.arrow-left{
+  left: 100px;
+
+}
+.arrow-right{
+    right: 100px;
+}
+
+@media screen and (max-width: 480px) {
+    .arrow-left,
+    .arrow-right {
+        top: 30% !important;      
+    }
+
+    .arrow-left{
+  left: 23px !important;
+
+}
+.arrow-right{
+      right: 23px !important;
+}
+}
+
+
+
+
+
+

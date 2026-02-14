@@ -1,0 +1,40 @@
+.header-pricing{
+    background-image: url('../../images/pic_2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.header-play{
+    display: block;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.header-heading, .header-pricing h2{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.header-pricing h2{
+    margin-top: 100px;
+}
+
+
+.register{
+    margin-bottom: 10px !important;
+}
+
+.check-year, .check-month{
+    color:green;
+}
+
+.three-months, .one-year{
+    font-size: 12px;
+}

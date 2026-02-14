@@ -1,0 +1,28 @@
+.latest-video {
+  position: relative;
+}
+
+.left-btn-popular, .right-btn-popular {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  font-size: 100px;
+  color: black;
+   
+}
+
+.left-btn-popular {
+    left: 30px;
+}
+
+.right-btn-popular {
+    right: 30px;
+}
+
+.left-btn-popular:hover, .right-btn-popular:hover,
+.left-btn-popular:active, .right-btn-popular:active{
+    background: transparent !important;
+    color: black;
+} 

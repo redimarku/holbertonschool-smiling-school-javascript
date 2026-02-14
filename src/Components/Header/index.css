@@ -1,0 +1,98 @@
+.header{
+    background-image: url('../../images/pic_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    /* background-blend-mode: darken; */
+    width: 100%;
+    height: 100%;
+}
+
+.schooled {
+    font-size: 120px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 200px;
+    letter-spacing: 10px;
+   
+}
+
+.categories {
+    width: 20%;
+    margin: 30px auto;
+    display: block;
+
+}
+.categories>li {
+    width: 10%;
+    color: #ffffff;
+    font-weight: bold;
+    list-style-type: none;
+    margin-right: 70px;
+    display: inline-block;
+}
+
+.register {
+    display: block;
+    margin: 50px auto;
+    background-color: #C271FF;
+    padding: 15px;
+    border-radius: 40px;
+    border: 0px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.learn {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.purple {
+    color: #C271FF;
+}
+
+.student{
+    margin-top: 80px;
+    
+}
+
+.student>h6, .student>p, .student>span{
+    color: #ffffff;
+}
+
+.student>h6 {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.student>p {
+    font-size: 15px;
+}
+
+
+@media screen and (max-width: 480px) {
+  .schooled {
+    font-size: 55px;
+   
+}
+ .categories {
+    width: 80%; /* use more of the screen width */
+    margin: 30px auto; 
+  }
+
+  .categories > li {
+    width: 25%;
+    color: #ffffff;
+    font-weight: bold;
+    list-style-type: none;
+    display: inline-block;
+    margin: 5px 14px; 
+  }
+
+}
